@@ -1,0 +1,32 @@
+.rowCrm {
+    width: 100%;
+    padding: 9px 0 7px 20px !important;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px #e7e9ec solid;
+    align-items: center;
+    transition: .2s
+}
+
+.scheduleMeetingButton {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #d8dce4;
+}
+
+.scheduleMeetingButton i {
+    color: #a19c9c;
+    font-size: 18px;
+    position: absolute;
+    z-index: 2;
+    margin-right: 20px;
+    margin-top: 1px;
+    cursor: pointer;
+    bottom: 7px;
+}
